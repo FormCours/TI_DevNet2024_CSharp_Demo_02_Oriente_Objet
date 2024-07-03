@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OO_01_Encapsulation", "Demo_OO_01_Encapsulation\Demo_OO_01_Encapsulation.csproj", "{58EF3BF3-8298-4E9B-B1A5-9FC0B92B14BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_01_Encapsulation", "Demo_OO_01_Encapsulation\Demo_OO_01_Encapsulation.csproj", "{58EF3BF3-8298-4E9B-B1A5-9FC0B92B14BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OO_03_SurchageOperateur", "Demo_OO_03_SurchageOperateur\Demo_OO_03_SurchageOperateur.csproj", "{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{58EF3BF3-8298-4E9B-B1A5-9FC0B92B14BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EF3BF3-8298-4E9B-B1A5-9FC0B92B14BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EF3BF3-8298-4E9B-B1A5-9FC0B92B14BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
