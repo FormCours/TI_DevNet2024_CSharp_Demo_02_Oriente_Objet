@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_01_Encapsulation", "Demo_OO_01_Encapsulation\Demo_OO_01_Encapsulation.csproj", "{58EF3BF3-8298-4E9B-B1A5-9FC0B92B14BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OO_03_SurchageOperateur", "Demo_OO_03_SurchageOperateur\Demo_OO_03_SurchageOperateur.csproj", "{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_03_SurchageOperateur", "Demo_OO_03_SurchageOperateur\Demo_OO_03_SurchageOperateur.csproj", "{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OO_04_Heritage", "Demo_OO_04_Heritage\Demo_OO_04_Heritage.csproj", "{EE97E83E-C92F-4684-A279-A75E2F1A7F1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C34322FC-6BFF-4CB0-81EC-89A8F24D1AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE97E83E-C92F-4684-A279-A75E2F1A7F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE97E83E-C92F-4684-A279-A75E2F1A7F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE97E83E-C92F-4684-A279-A75E2F1A7F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE97E83E-C92F-4684-A279-A75E2F1A7F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
