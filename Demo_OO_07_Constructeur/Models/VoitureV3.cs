@@ -13,6 +13,12 @@ namespace Demo_OO_07_Constructeur.Models
         public bool AttacheRemorque { get { return ChargeRemorque > 0; } }
         public int ChargeRemorque { get; set; }
 
+        // Dans cette implementation
+        //  - Chaques constructeurs appellent, potentiellement, un constructeur parent.
+        //  - Une méthode "Init" peut être créer pour définir les valeurs par defaut
+        // Objectif : 
+        //  - Permet de faire référence à plusieurs constructeurs de la classe parent si necessaire
+
         private void Init(string couleur, int chargeRemorque = 0, int nbPorte = 5)
         {
             NbPorte = nbPorte;

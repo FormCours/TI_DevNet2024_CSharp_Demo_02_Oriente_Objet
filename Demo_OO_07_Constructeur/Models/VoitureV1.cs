@@ -13,6 +13,12 @@ namespace Demo_OO_07_Constructeur.Models
         public bool AttacheRemorque { get { return ChargeRemorque > 0; } }
         public int ChargeRemorque { get; set; }
 
+        // Dans cette implementation
+        //  - Définir toutes les valeurs par défaut dans le constructeur avec le moins de parametres
+        //  - Chaque constructeurs appel un constructeur avec moins de parametre (si possible)
+        //  - En cas d'héritage, le constructeur avec le moins de parametre appel le constructeur parent adapté.
+        // Objectif : 
+        //  - Centraliser les valeurs par default dans le premier constructeur
 
         public VoitureV1(string marque, string modele, decimal prix, int kilometrage, string couleur)
             : base(marque, modele, prix, kilometrage)
