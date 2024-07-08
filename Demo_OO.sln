@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_07_Constructeur", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_02_Indexeur", "Demo_OO_02_Indexeur\Demo_OO_02_Indexeur.csproj", "{D6AA6395-FFF7-4CA4-81A6-B06B3FCDC35F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OO_09_Delegue", "Demo_OO_09_Delegue\Demo_OO_09_Delegue.csproj", "{72B8F5D6-F754-42DE-98EB-5737E94D035C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D6AA6395-FFF7-4CA4-81A6-B06B3FCDC35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6AA6395-FFF7-4CA4-81A6-B06B3FCDC35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6AA6395-FFF7-4CA4-81A6-B06B3FCDC35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B8F5D6-F754-42DE-98EB-5737E94D035C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B8F5D6-F754-42DE-98EB-5737E94D035C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B8F5D6-F754-42DE-98EB-5737E94D035C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B8F5D6-F754-42DE-98EB-5737E94D035C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
