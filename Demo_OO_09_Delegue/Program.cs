@@ -24,3 +24,34 @@ Console.WriteLine("************************");
 List<int> numbersTrie3 = CollectionUtils.Trier(numbers, (val1, val2) => string.Compare(val1.ToString(), val2.ToString()) > 0);
 Console.WriteLine($"Original : {string.Join(" > ", numbers)}");
 Console.WriteLine($"Trié     : {string.Join(" > ", numbersTrie3)}");
+
+
+Console.WriteLine("Suite...");
+Console.ReadLine();
+Console.Clear();
+
+
+DisplayUtils displayUtils = new DisplayUtils();
+displayUtils.AjouterMessage("Hello World !");
+displayUtils.AjouterMessage("Veuillez lock votre PC <3");
+
+
+displayUtils.DisplayDelegate += delegate (string message)
+{
+    Console.WriteLine($" - {message}");
+};
+
+displayUtils.DisplayDelegate +=  delegate (string message)
+{
+    Console.WriteLine($" > {message.ToUpper()}");
+};
+
+displayUtils.DisplayDelegate += message =>
+{
+    ConsoleColor temp = Console.ForegroundColor;
+    Console.ForegroundColor = ConsoleColor.DarkCyan;
+    Console.WriteLine($" ? Question sur des delegués ?");
+    Console.ForegroundColor = temp;
+};
+
+displayUtils.LancerAffichage();
