@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_02_Indexeur", "Demo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_09_Delegue", "Demo_OO_09_Delegue\Demo_OO_09_Delegue.csproj", "{72B8F5D6-F754-42DE-98EB-5737E94D035C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OO_10_Event", "Demo_OO_10_Event\Demo_OO_10_Event.csproj", "{9B4A1DC9-1D21-4480-9D80-4C130FD34219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_OO_10_Event", "Demo_OO_10_Event\Demo_OO_10_Event.csproj", "{9B4A1DC9-1D21-4480-9D80-4C130FD34219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_OO_11_Generique", "Demo_OO_11_Generique\Demo_OO_11_Generique.csproj", "{71730D13-D5EE-4FF3-BA4D-949486FD1997}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{9B4A1DC9-1D21-4480-9D80-4C130FD34219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B4A1DC9-1D21-4480-9D80-4C130FD34219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B4A1DC9-1D21-4480-9D80-4C130FD34219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71730D13-D5EE-4FF3-BA4D-949486FD1997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71730D13-D5EE-4FF3-BA4D-949486FD1997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71730D13-D5EE-4FF3-BA4D-949486FD1997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71730D13-D5EE-4FF3-BA4D-949486FD1997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
