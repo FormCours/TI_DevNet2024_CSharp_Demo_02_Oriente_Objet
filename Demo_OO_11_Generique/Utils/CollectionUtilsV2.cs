@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Demo_OO_11_Generique.Utils
 {
-    public delegate bool FirstElementDelegate<TTarget>(TTarget target);
+    //public delegate bool FirstElementDelegate<in TTarget>(TTarget target);
 
     public static class CollectionUtilsV2
     {
-        public static TElement? GetFirstElement<TElement>(List<TElement> elements, FirstElementDelegate<TElement> del)
+        public static TElement? GetFirstElement<TElement>(List<TElement> elements, Func<TElement, bool> del)
         {
             TElement? result = default;
 
